@@ -14,10 +14,10 @@
         <h1>UNINOVE</h1>
         <form name="login">
             <label for="user">Usuário:</label>
-            <input type="text" name="user" id="user">
+            <input type="text" name="user" id="user" placeholder="Nome de Usuário">
             <label for="password">Senha:</label>
-            <input type="password" name="password" id="password" maxlength="16">
-            <input type="submit" value="Entrar">
+            <input type="password" name="password" id="password" maxlength="12" placeholder="Digite sua Senha">
+            <input type="button" value="Entrar" onclick="validar(user.value, password.value)">
         </form>
     </header>
     <nav>
@@ -25,7 +25,7 @@
         <a href="cursos.html">Cursos</a>
     </nav>
     <main>
-
+        <p id="acess_denied">Usuário e/ou senha inválidos</p>
     </main>
     <footer>
         <p>Desenvolviddo por Leonardo Rocha 🤓</p>
