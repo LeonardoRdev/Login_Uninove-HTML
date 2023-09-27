@@ -66,6 +66,11 @@ nav a:hover {
     color: red;
 }
 
+nav a#limpar{
+    font-size: 1.25rem;
+    color: rgb(226, 52, 52);
+}
+
 main{
     background-image: url("fundo_main.png");
     background-repeat: no-repeat;
@@ -77,6 +82,7 @@ main{
     border: solid #c0c0c0 2px;
     display: flex;
     padding: 25px;
+    align-items: center;
 }
 
 main p{
@@ -88,4 +94,7 @@ main p{
     margin: 25px auto;
     text-align: center;
     cursor: default;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    padding: 25px;
 }

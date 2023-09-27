@@ -6,11 +6,13 @@ function validar() {
     let mensagem = document.querySelector("main p#mensagem_main");
     if (user == "admin" && password=="uninove") {
         mensagem.innerHTML = "Acesso CONCEDIDO";
+        mensagem.style.textDecoration = "underline";
         mensagem.style.color = "#2af76b";
         mensagem.style.display = "flex";
         setTimeout(() => window.open("https://aluno.uninove.br/seu/CENTRAL/aluno/"), 500) /*espera 0.5 segundos antes de abrir a página*/
     } else {
-        mensagem.innerHTML = "Acesso NEGADO"
+        mensagem.innerHTML = "Acesso NEGADO";
+        mensagem.style.textDecoration = "underline";
         mensagem.style.color = "#f72a2a"
         mensagem.style.display = "flex";
     }
@@ -22,7 +24,9 @@ function lembrar() {
     mensagem.innerHTML = "Usuário: admin <br> Senha: uninove";
     mensagem.style.color = "#f1f1f1";
     mensagem.style.display = "flex";
+    mensagem.style.textDecoration = "none";
 }
+
 
 function missao() {
     let mensagem = document.querySelector("main p#mensagem_main");
@@ -30,4 +34,9 @@ function missao() {
     mensagem.style.display = "flex";
     mensagem.style.color = "#f1f1f1";
     mensagem.style.textDecoration = "none";
+}
+
+function limpar_mensagem() {
+    let mensagem = document.querySelector("main p#mensagem_main");
+    mensagem.style.display = "none";
 }
