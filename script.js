@@ -16,6 +16,6 @@ function validar(user, password) {
 function lembrar() {
     let mensagem = document.querySelector("main p#mensagem_main");
     mensagem.innerHTML = "Usuário: admin <br> Senha: uninove";
-    mensagem.style.color = "#212121";
+    mensagem.style.color = "#f1f1f1";
     mensagem.style.display = "flex";
 }

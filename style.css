@@ -52,6 +52,9 @@ nav a:hover {
 }
 
 main{
+    background-image: url("https://images3.alphacoders.com/132/thumb-1920-1326193.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 80%;
     height: 400px;
     margin: 15px auto 0;
@@ -69,6 +72,10 @@ main p{
     color: red;
     text-decoration: underline;
     text-shadow: 2px 2px 4px black;
+}
+
+main p:hover{
+    cursor: default;
 }
 
 footer {
