@@ -17,13 +17,13 @@
             <input type="text" name="user" id="user" placeholder="Nome de Usuário">
             <label for="password">Senha:</label>
             <input type="password" name="password" id="password" maxlength="12" placeholder="Digite sua Senha">
-            <input type="button" value="Entrar" onclick="validar(user.value, password.value)">
+            <input type="button" value="Entrar" onclick="validar()">
             <a href="#" onclick="lembrar()">lembra senha</a>
         </form>
     </header>
     <nav>
-        <a href="missao.html">Missão</a>
-        <a href="cursos.html">Cursos</a>
+        <a href="#" onclick="missao()">Missão</a>
+        <a href="#" onclick="curso()">Cursos</a>
     </nav>
     <main>
         <p id="mensagem_main"></p>

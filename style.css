@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header, footer{
@@ -19,13 +20,17 @@ header h1, header form{
     margin: 0 auto;
 }
 
-input{
+form input{
     padding: 3px;
 }
 
-input, a{
+form input, form a{
     margin: 5px;
 }
+
+/* form a{
+    color: blue;
+} */
 
 nav {
     width: 80%;
@@ -62,8 +67,7 @@ main{
     border: solid #c0c0c0 2px;
     box-sizing: border-box;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 25px;
 }
 
 main p{
@@ -72,6 +76,8 @@ main p{
     color: red;
     text-decoration: underline;
     text-shadow: 2px 2px 4px black;
+    margin: 25px auto;
+    text-align: center;
 }
 
 main p:hover{
