@@ -1,5 +1,7 @@
 function validar() {
-    let user = document.querySelector("form input#user").value;
+    let user = document.querySelector("form input#user").value; 
+    /*o querySelector funciona igual o css:
+    exemplo: main p.paragrafo ou main p#paragrafo*/
     let password = document.querySelector("form input#password").value;
     let mensagem = document.querySelector("main p#mensagem_main");
     if (user == "admin" && password=="uninove") {
