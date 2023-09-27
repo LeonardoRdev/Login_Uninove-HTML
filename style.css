@@ -23,6 +23,10 @@ input{
     padding: 3px;
 }
 
+input, a{
+    margin: 5px;
+}
+
 nav {
     width: 80%;
     margin: 15px auto 0;
@@ -61,7 +65,7 @@ main{
 
 main p{
     display: none;
-    font-size: 3.5rem;
+    font-size: 3.0rem;
     color: red;
     text-decoration: underline;
     text-shadow: 2px 2px 4px black;
