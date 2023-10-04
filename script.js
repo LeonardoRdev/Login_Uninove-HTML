@@ -1,10 +1,10 @@
 function validar() {
-    let user = document.querySelector("form input#user").value; 
+    let user = document.querySelector("form input#user").value;
     /*o querySelector funciona igual o css:
     exemplo: main p.paragrafo ou main p#paragrafo*/
     let password = document.querySelector("form input#password").value;
     let mensagem = document.querySelector("main p#mensagem_main");
-    if (user == "admin" && password=="uninove") {
+    if (user == "admin" && password == "uninove") {
         mensagem.innerHTML = "Acesso CONCEDIDO";
         mensagem.style.textDecoration = "underline";
         mensagem.style.color = "#2af76b";
@@ -53,4 +53,16 @@ function curso() {
     mensagem.style.color = "white";
     mensagem.style.textDecoration = "none";
     mensagem.style.display = "flex";
+}
+
+function mudaTema() {
+    let botao = document.querySelector("footer button");
+    let corpo = document.querySelector("body");
+    if (botao.textContent == "🌞") {
+        corpo.style.backgroundColor = "gray";
+        botao.innerHTML = "🌑";
+    } else {
+        corpo.style.backgroundColor = "white";
+        botao.textContent = "🌞"
+    }
 }
