@@ -53,7 +53,7 @@ nav {
 }
 
 nav a {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin: 0 auto;
     color: black;
     text-decoration: none;
@@ -67,13 +67,17 @@ nav a:hover {
 }
 
 nav a#limpar{
-    font-size: 1.25rem;
-    color: rgb(226, 52, 52);
+    padding: 8px;
+    background-color: aliceblue;
+    border: solid 2px rgb(228, 38, 38);
+    border-radius: 50px;
+    font-size: 1.35rem;
+    color: rgb(228, 38, 38);
 }
 
 nav a#limpar:active {
-    transition: 0s;
-    color: rgb(250, 125, 125);
+    transition: 0.05s;
+    background-color: rgb(225, 225, 225);
 }
 
 main{
@@ -94,7 +98,6 @@ main p#mensagem_main{
     display: none;
     flex-direction: column;
     font-size: 3.0rem;
-    color: red;
     text-decoration: underline;
     text-shadow: 2px 2px 4px black;
     margin: 25px auto;

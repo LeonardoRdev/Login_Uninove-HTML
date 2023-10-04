@@ -35,7 +35,7 @@ function missao() {
     mensagemMissao.style.display = "flex";
     mensagemMissao.style.fontSize = "2rem";
     mensagem.style.display = "flex";
-    mensagem.style.color = "#f1f1f1";
+    mensagem.style.color = "#f1f1f1"
     mensagem.style.textDecoration = "none";
 }
 
