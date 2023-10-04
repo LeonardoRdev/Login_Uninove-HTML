@@ -82,11 +82,13 @@ function curso() {
 function mudaTema() {
     let botao = document.querySelector("footer button");
     let corpo = document.querySelector("body");
-    if (botao.textContent == "🌞") {
-        corpo.style.backgroundColor = "gray";
-        botao.innerHTML = "🌑";
+    corpo.style.backgroundSize = "cover";
+    corpo.style.backgroundRepeat = "no-repeat";
+    if (botao.textContent == "Surpresa") {
+        corpo.style.backgroundImage = "url('https://images.unsplash.com/photo-1603531763662-109ff15864c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHB1cnBsZSUyMGdhbGF4eXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80')";
+        botao.innerHTML = "Voltar ao Normal";
     } else {
-        corpo.style.backgroundColor = "white";
-        botao.textContent = "🌞"
+        corpo.style.backgroundImage = "url('img/teste.jpg')";
+        botao.textContent = "Surpresa"
     }
 }

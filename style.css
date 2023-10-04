@@ -110,4 +110,9 @@ main p#mensagem_main{
 
 footer{
     flex-direction: column;
+    margin-bottom: 10px;
+}
+
+footer button{
+    padding: 4px;
 }
