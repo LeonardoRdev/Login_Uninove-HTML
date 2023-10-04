@@ -30,7 +30,7 @@ function lembrar() {
 
 function missao() {
     let fundo = document.querySelector("main");
-    fundo.style.backgroundImage = "url('fundo_main.png')"
+    fundo.style.backgroundImage = "url('img/fundo_main.png')"
     let mensagem = document.querySelector("main p#mensagem_main");
     mensagem.innerHTML = "Missão:<p id='descricao_missao'> Nossa missão é ensinar e capacitar todos os alunos para que sejam aptos a entrar no mercado de trabalho.</p>";
     let mensagemMissao = document.querySelector("main p#mensagem_main p#descricao_missao");
@@ -44,7 +44,7 @@ function missao() {
 
 function jogos() {
     let fundo = document.querySelector("main");
-    fundo.style.backgroundImage = "url('https://files.tecnoblog.net/wp-content/uploads/2021/10/aluguel-de-jogos.jpg')";
+    fundo.style.backgroundImage = "url('img/fundo_jogos.jpg')";
     let video = document.querySelector("main p#mensagem_main");
     video.style.display = "flex"
     video.style.backgroundColor = "rgba(0, 0, 0, 0)"
@@ -58,7 +58,7 @@ function limpar_mensagem() {
 
 function esportes() {
     let fundo = document.querySelector("main");
-    fundo.style.backgroundImage = "url('https://www.institutoclaro.org.br/educacao/wp-content/uploads/sites/2/2013/11/planodeaulaesporte_1840.jpg')";
+    fundo.style.backgroundImage = "url('img/fundo_esportes.jpg')";
     let video = document.querySelector("main p#mensagem_main");
     video.style.backgroundColor = "rgba(0, 0, 0, 0)";
     video.style.display = "flex";
@@ -67,7 +67,7 @@ function esportes() {
 
 function curso() {
     let fundo = document.querySelector("main");
-    fundo.style.backgroundImage = "url('fundo_main.png')"
+    fundo.style.backgroundImage = "url('img/fundo_main.png')"
     let mensagem = document.querySelector("main p#mensagem_main");
     mensagem.innerHTML = "Cursos:<p id='descricao_cursos'> A Uninove oferece diversos cursos de alta qualidade em diversas áreas do conhecimento, preparando os alunos para o mercado de trabalho e valorizando a inovação e o empreendedorismo.</p>";
     let mensagemCurso = document.querySelector("main p#mensagem_main p#descricao_cursos");
